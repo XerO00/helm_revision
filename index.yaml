@@ -1,9 +1,42 @@
 apiVersion: v1
 entries:
+  backend:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-04-23T08:24:48.575766565Z"
+    description: A Helm chart for Guestbook Backend 1.0
+    digest: 285ca233ebc17d37aa0a73d86255f5dc418ee9fea17ec13693de923186d1c0bc
+    name: backend
+    type: application
+    urls:
+    - backend-1.2.2.tgz
+    version: 1.2.2
+  database:
+  - apiVersion: v2
+    appVersion: "3.6"
+    created: "2022-04-23T08:24:48.576062669Z"
+    description: A Helm chart for Guestbook Database Mongodb 3.6
+    digest: 88e90495e36ee93346d611049599d2c9b0a1e63469d75acf621acb88f584c222
+    name: database
+    type: application
+    urls:
+    - database-1.2.2.tgz
+    version: 1.2.2
+  frontend:
+  - apiVersion: v2
+    appVersion: "2.0"
+    created: "2022-04-23T08:24:48.576303972Z"
+    description: A Helm chart for Guestbook Frontend 2.0
+    digest: 294e06a32a975a248b15302a45a49cd23ef501d6e75100246bb9af89450689fa
+    name: frontend
+    type: application
+    urls:
+    - frontend-1.2.2.tgz
+    version: 1.2.2
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-21T19:17:42.997865588Z"
+    created: "2022-04-23T08:24:48.576551776Z"
     description: A Helm chart for Kubernetes
     digest: fb67aecd284ce6eb268cb64241f1819e05d0b35427257ea4351b893c86fab798
     name: mychart
@@ -11,4 +44,4 @@ entries:
     urls:
     - mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-21T19:17:42.997155766Z"
+generated: "2022-04-23T08:24:48.574798251Z"
